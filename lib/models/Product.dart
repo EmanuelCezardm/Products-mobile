@@ -17,4 +17,18 @@ class Product {
     this.price = double.parse(data['price']);
     this.imagePath = data['image_path'];
   }
+
+  Map toMap() {
+    Map data = {};
+
+    if (this.id != null) {
+      data['id'] = this.id;
+    }
+
+    data['name'] = this.name;
+    data['price'] = this.price;
+    data['image_path'] = this.imagePath;
+
+    return data;
+  }
 }
