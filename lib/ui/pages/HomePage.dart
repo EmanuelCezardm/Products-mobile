@@ -1,4 +1,4 @@
-import 'package:ativ05_04_21/widgets/BaseText.dart';
+import 'package:ativ05_04_21/ui/widgets/BaseText.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

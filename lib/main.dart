@@ -1,5 +1,5 @@
-import 'package:ativ05_04_21/pages/HomePage.dart';
-import 'package:ativ05_04_21/pages/ProductsPage.dart';
+import 'package:ativ05_04_21/ui/pages/HomePage.dart';
+import 'package:ativ05_04_21/ui/pages/ProductsPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {

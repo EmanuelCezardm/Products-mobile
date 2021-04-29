@@ -1,5 +1,5 @@
 import 'package:ativ05_04_21/data/facade.dart';
-import 'package:ativ05_04_21/models/Product.dart';
+import 'package:ativ05_04_21/core/domain/models/Product.dart';
 import 'package:ativ05_04_21/services/abstraction/products_abstract_service.dart';
 
 class ProductsService extends ProductsAbstraticService {

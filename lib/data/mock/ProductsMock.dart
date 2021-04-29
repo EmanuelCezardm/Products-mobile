@@ -1,5 +1,5 @@
 import 'package:ativ05_04_21/data/abstraction/products_abstract_api.dart';
-import 'package:ativ05_04_21/models/Product.dart';
+import 'package:ativ05_04_21/core/domain/models/Product.dart';
 
 class ProductsMock extends ProductsAbstractApi {
   static List<Map<String, dynamic>> list = [
